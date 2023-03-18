@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 2000px;
+}
+#navbar {
+  z-index: 10;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 1px 20px silver;
+}
+#logo-nav {
+  width: 40px;
+  height: 40px;
+  color: #00ab2d;
+
+
+  margin-left: 120px;
+}
+#nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#left-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+#right-containers {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#registr-btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 40px silver;
+}
+#flex-center {
+  margin-top: 20px;
+}
+#btn-rate {
+  margin-left: 40px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #00ab2d;
+  color: #fff;
+}
+
+#phone-btn {
+  position: relative;
+  top: -40px;
+  left: 370px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #00ab2d;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+#text-logo {
+  font-size: 33px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-left: -200px;
+}
+#section {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#right-containers-on-section {
+  margin-left: 150px;
+  margin-top: 60px;
+}
+#text-on-section {
+  font-family: sans-serif;
+  font-size: 65px;
+  letter-spacing: 1px;
+}
+#p-on {
+  margin-top: 30px;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#right-cont-search {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 750px;
+  height: 80px;
+  background: none;
+  border: #00ab2d 3px solid;
+  border-radius: 40px;
+}
+
+#input-custom {
+  width: 380px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-right: -60px;
+  font-size: 20px;
+  color: black;
+}
+#btn-zakas {
+  margin-left: 100px;
+  width: 300px;
+  height: 65px;
+  background: #00ab2d;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+#img-on-left-containers {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+#left-containers-on-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 30px;
+}
+/* status block */
+
+.status_block {
+  position: relative;
+  left: 40px;
+  top: 300px;
+  display: flex;
+  float: left;
+}
+
+.icons__and_txt {
+  width: 300px;
+  height: 108px;
+  margin-right:250px;
+}
+
+.icons_style {
+  color: #00ab2d;
+  font-size: 3rem;
+}
+
+.number {
+  margin-top: -45px;
+  margin-left: 65px;
+}
+
+.h1_style {
+  font-weight: bold;
+  color: #00ab2d;
+}
+
+
+
+
+.cart__img {
+  width: 240px;
+}
+
+.text_paragrof {
+  width: 400px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+#status-block-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* Как это работает */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cart__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: relative;
+  top: 600px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  width: 400px;
+  height: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 20px 20px 50px silver;
+}
+
+.cart__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cart__text {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+}

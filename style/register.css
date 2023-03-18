@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+
+.navbar-main {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-btn {
+    column-gap: 20px;
+}
+
+.btn-button:nth-child(1) {
+    color: black ;
+    box-shadow: 1px 10px 20px rgb(214, 204, 204);
+   height: 40px;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-family: 'Fredoka One', cursive;;
+    font-weight: 600;
+}
+
+
+.navbar-logo h1 {
+    font-family: 'Lilita One', cursive;
+}
+
+.navbar-logo i {
+    font-size: 40px;
+    color: #00ab2d;
+}
+
+.navbar-logo {
+    column-gap: 10px;
+}
+
+
+
+
+.btn-button:nth-child(2) {
+    color: white;
+   height: 40px;
+   background-color: #00ab2d;
+   font-family: bolder;
+   text-align: center;
+   align-items: center;
+   padding: 10px 30px;
+   border-radius: 50px;
+
+}
+
+.btn-phone {
+    background-color: #00ab2d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-phone i {
+    color: white;
+}
+
+/* main */
+
+

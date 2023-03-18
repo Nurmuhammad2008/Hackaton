@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prices</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style/prices.css">
+  </head>
+  <body>
+<!-- navbar -->
+<header>
+    <nav id="navbar">
+        <div id="flex-center">
+          <div id="nav-container">
+            <div id="left-containers">
+              <i
+                class="fa-solid fa-location-arrow margin-on-nav"
+                id="logo-nav"
+              ></i>
+              <h1 id="text-logo" class="margin-on-nav">ilojibor.uz</h1>
+            </div>
+            <div id="right-container">
+              <button id="registr-btn">Войти</button>
+              <button id="btn-rate">Оставить отзыв</button>
+              <i class="fa-solid fa-phone-volume" id="phone-btn"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- section -->
+    <section>
+        <div class="container block_services">
+            <div class="services d-flex justify-content-around">
+                <a href="job.html">
+                    <div class="type_services">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <p>Заявка</p>
+                    </div>
+                </a>
+
+                <a href="masters.html">
+                    <div class="type_services">
+                        <i class="fa-solid fa-user">
+                            <div id="random_number">
+                                
+                            </div>
+                        </i>
+                        <p>Мастера</p>
+                    </div>
+                </a>
+                <a href="prices.html">
+                    <div class="type_services">
+                        <i class="fa-solid fa-coins"></i>
+                        <p>Цены</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="type_services">
+                        <i class="fa-regular fa-comments"></i>
+                        <p>JivoChat</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <hr style="height: 3px; color: gray; margin: 0;">
+    </section>
+          <!-- categores dropdown -->
+          <div class="container container__plus">
+
+          <div class="page-title"><h1>Сколько стоят услуги специалистов в Узбекистане</h1></div>
+
+          <select class="form-select" aria-label="Default select example" id="service__selection">
+
+
+              <option selected class="text__style" >Все категории</option>
+              <option class="text__style" value="tel">Вызов мастера на место</option>
+              <option class="text__style" value="avto_e">Автоэлектрики</option>
+              <option class="text__style" value="remont">Ремонт АКПП МКПП</option>
+              <option class="text__style" value="d_avto">Диагностика авто</option>
+              <option class="text__style" value="871">Ремонт двигателя</option>
+              <option class="text__style" value="874">Ремонт кондиционеров</option>
+              <option class="text__style" value="873">Кузовные работы</option>
+              <option class="text__style" value="870">Пошив чехлов</option>
+              <option class="text__style" value="880">Эвакуаторы</option>
+              <option class="text__style" value="877">Установка стекол</option>
+              <option class="text__style" value="881">Мойка, Химчистка</option>
+              <option class="text__style" value="867">Тюнинг</option>
+              <option class="text__style" value="878">Шиномонтаж</option>
+              <option class="text__style" value="868">Замена масла и ТО1</option>
+              <option class="text__style" value="875">Ремонт ходoвой части</option>
+              <option class="text__style" value="879">Шумоизоляция</option>
+              <option class="text__style" value="883">Ремонт по перечислению</option> 
+          </select>    
+
+
+
+          <div class="row row-services" id="result">
+              <div class="title">Вызов мастера на место</div>
+                  <div class="item">
+                      <div class="text">Открыть автомобиль</div>
+                      <div class="price">От 106 670 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Завести автомобиль</div>
+                      <div class="price">От 98 861 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Отключить сигнализацию</div>
+                      <div class="price">От 83 481 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Разблокировать автомобиль</div>
+                      <div class="price">От 112 365 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Заменить колесо</div>
+                      <div class="price">От 94 402 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Другое</div>
+                      <div class="price">От 0 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость вскрытия замка автомобиля в случае утери ключа, ОТ</div>
+                      <div class="price">От 100 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость компьютерной диагностики двигателя</div>
+                      <div class="price">От 50 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость вызова мастера на место, ОТ</div>
+                      <div class="price">От 50 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость отключения и отладки сигнализации, ОТ</div>
+                      <div class="price">От 100 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость мелкого ремонта автомобиля, ОТ</div>
+                      <div class="price">От 100 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость регулировки зажигания</div>
+                      <div class="price">От 100 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость ремонта электрики и замены предохранителей</div>
+                      <div class="price">От 50 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены или ремонта карбюратора</div>
+                      <div class="price">От 60 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены или ремонта двигателя, ОТ</div>
+                      <div class="price">От 1 500 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость  замены реле</div>
+                      <div class="price">От 50 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость снятия секреток, ОТ</div>
+                      <div class="price">От 200 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены катушек и свечей зажигания, ОТ</div>
+                      <div class="price">От 100 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены бензонасоса, ОТ</div>
+                      <div class="price">От 50 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены патрубков системы охлаждения, ОТ</div>
+                      <div class="price">От 100 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены расширительного бачка</div>
+                      <div class="price">От 60 000 сўм</div>
+                  </div>
+                  <div class="item">
+                      <div class="text">Стоимость замены высоковольтной проводки, ОТ</div>
+                      <div class="price">От 50 000 сўм</div>
+                  </div>
+          </div>
+
+          <div class="button">
+              <a href="masters.html" id="btn-catalog" class="foot_btn-submit"><button>Найти Мастера</button></a>
+              <a href="#" id="btn-catalog" class="btn-submit">Найти Мастера</a>
+          </div>
+      </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script src="js/prices.js"></script>
+      <script src="block-services.js"></script>
+  </body>
+</html>

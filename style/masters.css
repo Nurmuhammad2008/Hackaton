@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+
+body {
+    height: 2000px;
+  }
+  #navbar {
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+
+    
+    box-shadow: 0px 1px 20px silver;
+  }
+  #logo-nav {
+    width: 40px;
+    height: 40px;
+    color: #00ab2d;
+  }
+  #nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #left-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+  }
+  #right-containers {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #registr-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background: #fff;
+    box-shadow: 0px 0px 40px silver;
+  }
+  #flex-center {
+    margin-top: 20px;
+  }
+  #btn-rate {
+    margin-left: 40px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #00ab2d;
+    color: #fff;
+  }
+  
+  #phone-btn {
+    position: relative;
+    top: -40px;
+    left: 370px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #00ab2d;
+    color: white;
+    width: 40px;
+    height: 40px;
+  }
+  #text-logo {
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: -200px;
+  }
+  #section {
+    position: relative;
+    top: 200px;
+  }
+  #section-container {
+    display: flex;
+  }
+  #right-containers-on-section {
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  #text-on-section {
+    font-family: sans-serif;
+    font-size: 65px;
+    letter-spacing: 1px;
+  }
+  #p-on {
+    margin-top: 30px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #right-cont-search {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+    height: 80px;
+    background: none;
+    border: #00ab2d 3px solid;
+    border-radius: 40px;
+  }
+  
+  #input-custom {
+    width: 380px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-right: -60px;
+    font-size: 20px;
+    color: black;
+  }
+  #btn-zakas {
+    margin-left: 100px;
+    width: 300px;
+    height: 65px;
+    background: #00ab2d;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+  }
+  #left-containers-on-section {
+    width: 300px;
+    height: 300px;
+  }
+
+/* section */
+
+.services a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.type_services p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  .type_services i {
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+      padding-bottom: 15px;
+      color: gainsboro;
+  }
+
+  #random_number {
+    font-size: 10px;
+    border-radius: 30px;
+    background-color: #00ab2d;
+    padding: 4px;
+    height: 15px;
+    color: white;
+    text-align: center;
+}   
+
+
+  
+  .type_services:hover p {
+  color: gainsboro;
+  }
+  
+  .services a:nth-child(2) i {
+  color: #00ab2d;
+  }
+  
+  .services a:nth-child(2) {
+      border-bottom: 3px solid #00ab2d;
+  }
+  
+  .type_services {
+      width: 200px;
+  }
+  
+  
+  
+  .services {
+      position: relative;
+  
+  }
+  
+  .block_services {
+      margin: 0 auto;
+      max-width: 786px;
+      padding: 0;
+  }
+  
+  
+  .block_services {
+      padding-top: 20px;
+  }
+
+  /* main block */
+
+
+.title h5 {
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    padding: 10px;  
+}
+
+
+.type-card-master {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(92,107,192,.2);
+    padding: 13px 16px 16px;
+    width: 30%;
+    height: 200px;
+
+}
+
+@media  (max-width:600px){
+    .type_services {
+        width: 100px;
+    }
+}
+  
+
+
+.cards-master {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card_img img {
+    width: 90px;
+    height: 84px;
+    border-radius: 10px;
+}
+
+
+.btn-phone_card  i  {
+   color: white;
+   background-color: #00ab2d;
+   padding: 15px;
+   border-radius: 50%;
+}
+
+
+.name {
+    color: #4a4a4a;
+    font-size: 12px;
+    line-height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card-evaluate i {
+    color: gainsboro;
+    font-size: 10px;
+    padding-bottom: 30px;
+    
+}
+
+    .card-evaluate  {
+        width: 220px;
+        padding: 0 0 0 10px;
+    }
+
+.oclock p{
+    background-color: #00ab2d;
+    width: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    border-radius: 5px;
+    height: 15px;
+}
+
+.oclock span {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: bold;
+    height: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.oclock {
+    column-gap: 5px;
+}
+
+.oclock i  {
+    color: blue;
+    font-size: 15px;
+}
+
+
+
+
+.prices-job  {
+    padding-top: 10px;
+    line-height: 25px;
+} 
+
+.prices-job p{
+  color: rgb(185, 181, 181);
+  font-size: 13px;
+}
+
+.oclock i {
+    height: 10px;
+}
+
+
+.btn-footer a button {
+
+    padding: 10px 50px;
+    background-color: #00ab2d;
+    color: white;
+    border:  none;
+    border-radius: 50px;
+    text-decoration: none;
+
+
+}
+
+.block_services  {
+    padding-top:110px ;
+}
+
+
+.btn-catalog {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+
+.btn-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

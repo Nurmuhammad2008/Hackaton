@@ -1,0 +1,562 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');* 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* style list search jobs */
+
+
+  body {
+    /* height: 1640px; */
+  }
+  #navbar {
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 1px 20px silver;
+  }
+  #logo-nav {
+    width: 40px;
+    height: 40px;
+    color: #00ab2d;
+  }
+  #nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #left-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+  }
+  #right-containers {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #registr-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background: #fff;
+    box-shadow: 0px 0px 40px silver;
+  }
+  #flex-center {
+    margin-top: 20px;
+  }
+  #btn-rate {
+    margin-left: 40px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #00ab2d;
+    color: #fff;
+  }
+  
+  #phone-btn {
+    position: relative;
+    top: -40px;
+    left: 370px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #00ab2d;
+    color: white;
+    width: 40px;
+    height: 40px;
+  }
+  #text-logo {
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: -200px;
+  }
+  #section {
+    position: relative;
+    top: 200px;
+  }
+  #section-container {
+    display: flex;
+  }
+  #right-containers-on-section {
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  #text-on-section {
+    font-family: sans-serif;
+    font-size: 65px;
+    letter-spacing: 1px;
+  }
+  #p-on {
+    margin-top: 30px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #right-cont-search {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+    height: 80px;
+    background: none;
+    border: #00ab2d 3px solid;
+    border-radius: 40px;
+  }
+  
+  #input-custom {
+    width: 380px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-right: -60px;
+    font-size: 20px;
+    color: black;
+  }
+  #btn-zakas {
+    margin-left: 100px;
+    width: 300px;
+    height: 65px;
+    background: #00ab2d;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+  }
+  #left-containers-on-section {
+    width: 300px;
+    height: 300px;
+  }
+
+/* navbar */
+.navbar-main {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-btn {
+    column-gap: 20px;
+}
+
+.btn-button:nth-child(1) {
+    color: black;
+    box-shadow: 1px 4px 17px rgb(214, 204, 204);
+    height: 40px;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 600;
+}
+
+
+.navbar-logo h1 {
+    font-family: 'Lilita One', cursive;
+}
+
+.navbar-logo i {
+    font-size: 40px;
+    color: #00ab2d;
+}
+
+.navbar-logo {
+    column-gap: 10px;
+}
+
+
+
+
+.btn-button:nth-child(2) {
+    color: white;
+   height: 40px;
+   background-color: #00ab2d;
+   font-family: bolder;
+   text-align: center;
+   align-items: center;
+   padding: 10px 30px;
+   border-radius: 50px;
+
+}
+
+.btn-phone {
+    background-color: #00ab2d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-phone i {
+    color: white;
+}
+/* block_services */
+
+.block_jobs h4 {
+    padding-bottom: 40px;
+}
+
+.services a {
+    text-decoration: none;
+    color: black;
+}
+
+.type_services p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .type_services i {
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+      padding-bottom: 15px;
+      color: gainsboro;
+  }
+  
+  .type_services:hover p {
+  color: gainsboro;
+  }
+  
+  .services a:nth-child(1) i {
+  color: #00ab2d;
+  }
+  
+  .services a:nth-child(1) {
+      border-bottom: 3px solid #00ab2d;
+  }
+  
+  .type_services {
+      width: 200px;
+  }
+  
+  
+  
+  .services {
+      position: relative;
+  
+  }
+  
+  .block_services {
+      margin: 0 auto;
+      max-width: 786px;
+      padding: 0;
+  }
+  
+  
+  .block_services {
+      padding-top: 20px;
+  }
+
+/*  block_jobs */
+
+.block_jobs {
+    margin: 0 auto;
+    max-width: 786px;
+    padding: 20px;
+}
+
+.block_jobs form {
+    width: 100%;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_services  {
+    padding-top:110px ;
+}
+
+
+
+
+.block_jobs form input {
+border: none;
+width:90%;
+outline: none;
+}
+
+.block_jobs form i {
+    color: gainsboro;
+    float: right;
+    text-align: center  ;
+    font-size: 20px;
+    align-items: center;
+    display: flex;  
+    justify-content: center;
+}
+
+
+.block_jobs form input::-webkit-input-placeholder { 
+
+    color: gainsboro;
+} 
+
+.block_jobs h4 {
+    text-align: center;
+    padding: 17px 0 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.list_job {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 20px;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.type_job {
+    align-items: center;
+    width: 46%;
+    border-radius: 10px;
+    padding: 2px 0  0 10px;
+    column-gap: 20px;
+    display: flex;
+    text-align: center;
+    box-shadow: 5px 0px 20px rgba(176, 176, 245, 0.623);
+
+  
+}
+
+#random_number {
+    font-size: 10px;
+    border-radius: 30px;
+    background-color: #00ab2d;
+    padding: 4px 4px;
+    height: 15px;
+    color: white;
+    text-align: center;
+}
+
+.type_job p {
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.type_job   svg  {
+    color: gainsboro;
+}
+
+
+.type_job i   {
+    color: gainsboro;
+    align-items: center;
+}
+
+.type_job:hover {
+    border: 3px solid #00ab2d;
+    transition: 0.1s;
+    
+}
+section {
+    padding: 0;
+
+}
+
+.icon-exit i {
+    font-size: 20px;
+    color: #00ab2d;
+    background-color: white;
+    box-shadow:10px 10px 20px  gainsboro;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.icon-exit p{
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 70px;
+}
+
+
+.icon-enter {
+    width: 300px;
+    border-radius: 10px;
+   background-color: rgb(236, 234, 234);
+   height: 25px;
+   padding: 0px 0px 0px 0px;
+   
+}
+
+.this-icon-enter {
+    background-color: #00ab2d;
+    width: 30px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 3px;
+    align-items: center;
+    font-size: 10px;
+    font-family: bold;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.alert {
+    margin: 0 0 0 20px;
+}
+
+.main-last-register li {
+    list-style: none;
+}
+
+
+
+.register-btn ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.register-btn ul li div {
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 60px rgba(20,76,112,.1);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+
+.register-btn button {
+    text-align: center;
+    border: none;
+    background-color: #00ab2d;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 70px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.register-btn ul li div:hover {
+    border: 3px solid #00ab2d;
+    transition: 0.1s;
+    
+}
+
+.register {
+    padding: 30px;
+    display: none;
+}
+
+
+.last_reg-links {
+    list-style: none;
+
+}
+
+.last_reg-links input{
+    border: 2px solid #e5e5e5;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    outline-color: #00ab2d;
+}
+
+.last_reg-img {
+    list-style: none;
+    
+}
+
+.last_reg-img div a {
+    color: #00ab2d; 
+    text-align: center;
+    align-items: center;
+
+}
+
+.last_reg-img div {
+    width: 100%; 
+   display: flex;
+   border: 2px dashed #e5e5e5;
+   padding: 20px;
+   justify-content: center  ;
+}
+
+
+
+.last_reg-img div i {
+    font-size: 30px;
+    color: #00ab2d;
+    padding:10px;
+}
+
+
+.main-last-register ul li {
+    padding-bottom: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-last-register ul li a button {
+    background-color: #00ab2d;
+    color: #fff;
+    border: none;
+    padding: 9px 10px;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+}
+
+.last-register {
+display: none;
+}
