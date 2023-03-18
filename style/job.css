@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');* 
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
 
 * {
     margin: 0;
@@ -54,7 +54,7 @@
     font-weight: 700;
     font-size: 15px;
     background: #fff;
-    box-shadow: 0px 0px 40px silver;
+    box-shadow: 8px 5px 13px silver; 
   }
   #flex-center {
     margin-top: 20px;
@@ -93,6 +93,9 @@
     font-family: sans-serif;
     font-weight: bolder;
     margin-left: -200px;
+    font-family: 'Courgette', cursive;
+
+    
   }
   #section {
     position: relative;
@@ -291,10 +294,9 @@
     width: 100%;
     border: 2px solid gainsboro;
     border-radius: 10px;
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
     display: flex;
     justify-content: center;
-
 }
 
 .block_services  {
