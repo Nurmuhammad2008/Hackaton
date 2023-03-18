@@ -8,164 +8,45 @@
   box-sizing: border-box;
 }
 
+.header-section {
+  padding-top: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
 
-body {
-  height: 2000px;
+
+.section-container {
+  column-gap: 20px;
 }
 #navbar {
   z-index: 10;
   position: fixed;
   background-color: white;
   width: 100%;
-  height: 80px;
+  height: 60px;
   box-shadow: 0px 1px 10px silver;
 }
-#logo-nav {
-  width: 40px;
-  height: 40px;
-  color: #00ab2d;
-  margin-left: 120px;
-}
-#nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#left-containers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -40px;
-}
-#right-containers {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-#registr-btn {
-  width: 150px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+.text-on-section {
+  font-size: 50px;
   font-weight: 700;
-  font-size: 15px;
-  background: #fff;
-  box-shadow: 8px 5px 13px silver;}
-#flex-center {
-  margin-top: 20px;
-}
-#btn-rate {
-  margin-left: 40px;
-  border: none;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  background-color: #00ab2d;
-  color: #fff;
+  line-height: 56px;
+  margin-bottom: 0;
 }
 
-#phone-btn {
-  position: relative;
-  top: -40px;
-  left: 370px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  background-color: #00ab2d;
-  color: white;
-  width: 40px;
-  height: 40px;
-}
-#text-logo {
-  font-size: 33px;
-  font-family: sans-serif;
-  font-weight: bolder;
-  margin-left: -200px;
-  font-family: 'Courgette', cursive;
+.right-containers-on-section  {
 
 }
-#section {
-  position: relative;
-  top: 100px;
+.nav-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-#section-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#right-containers-on-section {
-  margin-left: 150px;
-  margin-top: 60px;
-}
-#text-on-section {
-  font-family: sans-serif;
-  font-size: 65px;
-  letter-spacing: 1px;
-}
-#p-on {
-  margin-top: 30px;
-  color: grey;
-  font-family: sans-serif;
-  font-size: 30px;
-  letter-spacing: 2px;
-}
-#right-cont-search {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 750px;
-  height: 80px;
-  background: none;
-  border: #00ab2d 3px solid;
-  border-radius: 40px;
-}
-
-#input-custom {
-  width: 380px;
-  height: 40px;
-  border: none;
-  outline: none;
-  margin-right: -60px;
-  font-size: 20px;
-  color: black;
-}
-#btn-zakas {
-  margin-left: 100px;
-  width: 300px;
-  height: 65px;
-  background: #00ab2d;
-  border: none;
-  border-radius: 40px;
-  color: white;
-  font-size: 17px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
-}
-#img-on-left-containers {
-  width: 500px;
-  height: 500px;
+ 
+.left-containers-on-section img {
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
 }
-#left-containers-on-section {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin-left: 30px;
-}
+
 /* status block */
 
 .status_block {
@@ -219,10 +100,6 @@ body {
 
 /* Как это работает */
 
-.container {
-  display: flex;
-  justify-content: center;
-}
 
 .cart__items {
   display: flex;
