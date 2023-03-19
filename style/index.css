@@ -152,10 +152,8 @@
 .margin-on-nav {
   font-family: "Courgette", cursive;
   font-size: 33px;
-  font-family: sans-serif;
   font-weight: bolder;
 
-  font-family: "Courgette", cursive;
 }
 
 .cart__img {
@@ -298,10 +296,11 @@
 .adres-program {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 20px ;
 }
 
 .adres-program i {
-  font-size: 60px;
+  font-size: 30px;
   color: gray;
 }
 #flex-containers-footer {
@@ -320,6 +319,10 @@
   color: white;
   margin-top: 90px;
 }
+
+.href-class-footer {
+  padding-top: 20px;
+}
 #address-container {
   color: white;
   margin-top: 50px;
@@ -334,7 +337,7 @@
   margin: 0;
 }
 .h1-class-footer {
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: 30px;
   margin-top: 30px;
   color: gray;

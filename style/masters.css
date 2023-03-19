@@ -21,6 +21,15 @@
     
     box-shadow: 0px 1px 20px silver;
   }
+
+  .margin-on-nav {
+    text-decoration: none;
+    color: black;
+  }
+
+  #nav-container a {
+    text-decoration: none;
+  }
   #logo-nav {
     width: 40px;
     height: 40px;

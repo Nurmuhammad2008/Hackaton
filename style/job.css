@@ -97,6 +97,16 @@
 
     
   }
+
+  .margin-on-nav {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+
+  #nav-container a {
+    text-decoration: none;
+  }
   #section {
     position: relative;
     top: 200px;
@@ -287,7 +297,7 @@
 .block_jobs {
     margin: 0 auto;
     max-width: 786px;
-    padding: 20px;
+    padding: 20px 0 100px 0 ;
 }
 
 .block_jobs form {
