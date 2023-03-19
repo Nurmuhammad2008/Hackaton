@@ -52,6 +52,11 @@ line-height: 20px;
   padding: 20px 40px;
   border-radius: 50px;
   font-weight: 700;
+  transition: 0.3s;
+}
+.bnt-zakas:hover {
+  background-color: #00741f;
+  transition: 0.3s;
 }
 
 .right-cont-search {
