@@ -250,15 +250,15 @@
   width: 100%;
 }
 #text-answer {
-  margin-top: 100px;
   margin-bottom: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 #text-answers {
-  margin-top: 100px;
-  font-size: 60px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
 }
 #flex-answers-main {
   display: flex;
@@ -276,7 +276,7 @@
   align-items: center;
   border: none;
   background: none;
-  width: 1300px;
+  width: 1200px;
   height: 80px;
 }
 .button-w {
@@ -285,13 +285,24 @@
 }
 .plus-btn {
   margin-right: 50px;
+  background-color: #00ab2d;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
 }
 #abs-footer {
-  position: relative;
-  top: 200px;
   background-color: #151515;
   width: 100%;
-  height: 450px;
+}
+
+.adres-program {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.adres-program i {
+  font-size: 60px;
+  color: gray;
 }
 #flex-containers-footer {
   display: flex;
@@ -303,15 +314,19 @@
 }
 #info-container {
   color: white;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 #support-container {
   color: white;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 #address-container {
   color: white;
   margin-top: 50px;
+}
+
+.footer-end-flex {
+ padding: 0 30px;
 }
 .text-class-footer {
   transition: all 0.3s;
@@ -322,12 +337,17 @@
   font-size: 30px;
   margin-bottom: 30px;
   margin-top: 30px;
+  color: gray;
 }
 .href-class-footer {
-  text-decoration: none;
-  color: white;
-  font-size: 40px;
-  margin-top: 100px;
+text-decoration: none;
+    color: gray;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+.href-class-footer img {
+  
 }
 #address-container > .text-class-footer {
   margin-bottom: 70px;
@@ -348,7 +368,7 @@
   top: 60px;
 }
 #text-endfooter {
-  margin-left: 50px;
+  
 }
 .footer-images {
   margin-right: 30px;
@@ -361,6 +381,7 @@
 }
 .decoration {
   text-decoration: none;
+  font-size: 30px;
 }
 #abs-info-section {
   position: absolute;
@@ -377,6 +398,14 @@
   justify-content: center;
   display: flex;
 }
+
+.decoration {
+  color: gray;
+}
+
+.decoration-container {
+display: flex;
+column-gap: 20px;}
 .text-info-class {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -386,4 +415,8 @@
 }
 #text-info-id {
   font-size: 60px;
+}
+
+.course-container {
+  margin-top: 43px;
 }
