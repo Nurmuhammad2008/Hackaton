@@ -33,7 +33,26 @@
             ></i>
           </div>
           <div id="right-container" class="right-container">
-            <button id="registr-btn" class="registr-btn">Войти</button>
+            <div id="registr-btn" class="registr-btn">
+              <a href="#" id="open_pop_up">Войти</a>
+            </div>
+            <div class="pop_up" id="pop_up">
+              <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                  <p>Войти</p>
+                  <form action="masters.html">
+                    <div id="form">
+                    <input type="login" required placeholder="Электронная почта или телефон"/>
+                    <input type="password" required placeholder="Пароль"/>
+                    <button>Войти</button>
+                  </div>
+                  </form>
+                  <div class="pop_up_close" id="pop_up_close">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
             <button id="btn-rate" class="btn-rate">Оставить отзыв</button>
             <i class="fa-solid fa-phone-volume phone-btn" id="phone-btn"></i>
           </div>
@@ -577,4 +596,5 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"
   ></script>
+  <script src="./index.js"></script>
 </html>
