@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap");
 
 * {
   margin: 0;
@@ -13,7 +12,6 @@
   width: 1200px;
   margin: 0 auto;
 }
-
 
 .section-container {
   column-gap: 123px;
@@ -34,9 +32,9 @@
   margin-bottom: 0;
 }
 
-.right-containers-on-section  {
-padding-top: 97px;
-line-height: 20px;
+.right-containers-on-section {
+  padding-top: 97px;
+  line-height: 20px;
 }
 .nav-container {
   display: flex;
@@ -46,7 +44,7 @@ line-height: 20px;
 
 .bnt-zakas {
   float: right;
-  border: none ;
+  border: none;
   background-color: #00ab2d;
   color: white;
   padding: 20px 40px;
@@ -60,20 +58,19 @@ line-height: 20px;
 }
 
 .right-cont-search {
-  border:  2px solid #00ab2d;
+  border: 2px solid #00ab2d;
   border-radius: 50px;
   padding: 4px;
   margin-top: 40px;
 }
 
 .right-cont-search input {
-  border:none;
+  border: none;
   border-radius: 50px;
   padding: 20px;
   outline: none;
-
 }
- 
+
 .right-containers-on-section p {
   color: gainsboro;
   font-size: 27px;
@@ -85,21 +82,19 @@ line-height: 20px;
   height: 450px;
   border-radius: 50%;
 }
-.left-containers-on-section{
+.left-containers-on-section {
   padding-top: 59px;
 }
 
 /* status block */
 
 .status_block {
-
   display: flex;
 }
 
 .icons__and_txt {
   width: 300px;
   height: 108px;
- 
 }
 
 .icons_style {
@@ -117,11 +112,9 @@ line-height: 20px;
   color: #00ab2d;
 }
 
-
 .logo-nav {
   color: #00ab2d;
   font-size: 15px;
-
 }
 
 .registr-btn {
@@ -157,16 +150,13 @@ line-height: 20px;
 }
 
 .margin-on-nav {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   font-size: 33px;
   font-family: sans-serif;
   font-weight: bolder;
 
-  font-family: 'Courgette', cursive;
-
+  font-family: "Courgette", cursive;
 }
-
-
 
 .cart__img {
   width: 240px;
@@ -176,8 +166,6 @@ line-height: 20px;
   font-size: 1.5rem;
   font-family: sans-serif;
 }
-
-
 
 /* Как это работает */
 
@@ -224,9 +212,7 @@ line-height: 20px;
   justify-content: center;
 }
 
-
-.main_program 
-{
+.main_program {
   padding: 100px 0 80px 0;
 }
 
@@ -244,4 +230,160 @@ line-height: 20px;
   line-height: 22px;
   margin-top: 12px;
   text-align: center;
+}
+#bootsrtap-conatainer {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 80px;
+  /* align-items: flex-start;
+  justify-content: center; */
+}
+.custom-a-info {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+#abs-answers {
+  width: 100%;
+}
+#text-answer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#text-answers {
+  margin-top: 100px;
+  font-size: 60px;
+}
+#flex-answers-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.button-info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: none;
+  width: 1300px;
+  height: 80px;
+}
+.button-w {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.plus-btn {
+  margin-right: 50px;
+}
+#abs-footer {
+  position: relative;
+  top: 200px;
+  background-color: #151515;
+  width: 100%;
+  height: 450px;
+}
+#flex-containers-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+#course-container {
+  color: white;
+  margin-top: 50px;
+}
+#info-container {
+  color: white;
+  margin-top: 50px;
+}
+#support-container {
+  color: white;
+  margin-top: 50px;
+}
+#address-container {
+  color: white;
+  margin-top: 50px;
+}
+.text-class-footer {
+  transition: all 0.3s;
+  color: grey;
+  margin: 0;
+}
+.h1-class-footer {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.href-class-footer {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+}
+#address-container > .text-class-footer {
+  margin-bottom: 70px;
+}
+.text-class-footer:hover {
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}
+#footer-end-flex {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  top: 60px;
+}
+#text-endfooter {
+  margin-left: 50px;
+}
+.footer-images {
+  margin-right: 30px;
+  width: 20px;
+  height: 20px;
+}
+.footer-images:hover {
+  cursor: pointer;
+  color: white;
+}
+.decoration {
+  text-decoration: none;
+}
+#abs-info-section {
+  position: absolute;
+  top: 1300px;
+  width: 100%;
+}
+#img-info-sect {
+  border: 2px solid silver;
+  border-radius: 20px;
+  width: 600px;
+  height: 550px;
+}
+#sect-info-flex {
+  justify-content: center;
+  display: flex;
+}
+.text-info-class {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  margin-left: 50px;
+  font-size: 20px;
+}
+#text-info-id {
+  font-size: 60px;
 }
