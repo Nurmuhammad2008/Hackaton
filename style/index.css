@@ -219,6 +219,9 @@ line-height: 20px;
 
 .main_program img {
   border-radius: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 
