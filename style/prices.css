@@ -39,6 +39,14 @@
     justify-content: end;
     align-items: center;
   }
+
+
+  #nav-container a {
+    text-decoration: none;
+  }
+  .margin-on-nav {
+    color: black;
+  }
   #registr-btn {
     width: 150px;
     height: 40px;
@@ -280,3 +288,143 @@
   .block_services {
     padding-top: 110px;
   }
+
+
+  /* navbar */
+
+  /* footer */
+
+#abs-footer {
+  background-color: #151515;
+  width: 100%;
+}
+
+#flex-containers-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#course-container {
+  color: white;
+  margin-top: 50px;
+}
+#info-container {
+  color: white;
+  margin-top: 90px;
+}
+#support-container {
+  color: white;
+  margin-top: 90px;
+}
+
+.href-class-footer {
+  padding-top: 20px;
+}
+#address-container {
+  color: white;
+  margin-top: 50px;
+}
+
+.footer-end-flex {
+ padding: 0 30px;
+}
+.text-class-footer {
+  transition: all 0.3s;
+  color: grey;
+  margin: 0;
+}
+.h1-class-footer {
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: gray;
+}
+.href-class-footer {
+text-decoration: none;
+    color: gray;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+
+#address-container > .text-class-footer {
+  margin-bottom: 70px;
+}
+.text-class-footer:hover {
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}
+#footer-end-flex {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  top: 60px;
+}
+
+.footer-images {
+  margin-right: 30px;
+  width: 20px;
+  height: 20px;
+}
+.footer-images:hover {
+  cursor: pointer;
+  color: white;
+}
+.decoration {
+  text-decoration: none;
+  font-size: 30px;
+}
+#abs-info-section {
+  position: absolute;
+  top: 1300px;
+  width: 100%;
+}
+#img-info-sect {
+  border: 2px solid silver;
+  border-radius: 20px;
+  width: 600px;
+  height: 550px;
+}
+#sect-info-flex {
+  justify-content: center;
+  display: flex;
+}
+
+.decoration {
+  color: gray;
+}
+
+.decoration-container {
+display: flex;
+column-gap: 20px;}
+.text-info-class {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  margin-left: 50px;
+  font-size: 20px;
+}
+#text-info-id {
+  font-size: 60px;
+}
+
+.course-container {
+  margin-top: 43px;
+}
+
+.adres-program {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px ;
+}
+
+.adres-program i {
+  font-size: 30px;
+  color: gray;
+}

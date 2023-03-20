@@ -17,42 +17,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./style/index.css" />
+    <link rel="icon" href="./images/logo_icon.jpg">
     <title>Ilojibor.uz</title>
   </head>
   <body>
-    <nav id="navbar">
+    <nav id="navbar" class="animate__animated animate__fadeInDown">
       <div id="flex-center">
         <div id="nav-container" class="container nav-container">
           <div id="left-containers " class="d-flex">
             <h1 id="text-logo" class="margin-on-nav">ilojibor.uz</h1>
-            <i
-              class="fa-solid fa-location-arrow margin-on-nav logo-nav"
-              id="logo-nav"
-            ></i>
+            <i class="fa-solid fa-location-arrow logo-nav" ></i>
           </div>
           <div id="right-container" class="right-container">
-            <div id="registr-btn" class="registr-btn">
-              <a href="#" id="open_pop_up">Войти</a>
-            </div>
-            <div class="pop_up" id="pop_up">
-              <div class="pop_up_container">
-                <div class="pop_up_body" id="pop_up_body">
-                  <p>Войти</p>
-                  <form action="masters.html">
-                    <div id="form">
-                    <input type="login" required placeholder="Электронная почта или телефон"/>
-                    <input type="password" required placeholder="Пароль"/>
-                    <button>Войти</button>
-                  </div>
-                  </form>
-                  <div class="pop_up_close" id="pop_up_close">
-                    <i class="fa-solid fa-xmark"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <button id="registr-btn" class="registr-btn">Войти</button>
             <button id="btn-rate" class="btn-rate">Оставить отзыв</button>
             <i class="fa-solid fa-phone-volume phone-btn" id="phone-btn"></i>
           </div>
@@ -65,22 +49,22 @@
           id="right-containers-on-section"
           class="right-containers-on-section"
         >
-          <h1 id="text-on-section" class="text-on-section">
+          <h1 id="text-on-section" class="text-on-section animate__animated animate__fadeInUp">
             Cпециалисты по <br />
-            ремонту и строительству <br />
+            ремонту машин <br />
             со всего Узбекистана!
           </h1>
-          <p id="p-on">На ilojibor.uz зашел — мастера нашел!</p>
-          <div id="right-cont-search" class="right-cont-search">
+          <p id="p-on" class="animate__animated animate__bounceInLeft">На ilojibor.uz зашел — мастера нашел!</p>
+          <div id="right-cont-search" class="right-cont-search animate__animated animate__backInLeft">
             <input
               search="search"
               placeholder="Какие мастера вам нужны?"
               id="input-custom"
             />
-            <button id="btn-zakas" class="bnt-zakas">ОФОРМИТЬ ЗАКАЗ</button>
+           <a href="job.html"><button id="btn-zakas" class="bnt-zakas">ОФОРМИТЬ ЗАКАЗ</button></a> 
           </div>
         </div>
-        <div id="left-containers-on-section" class="left-containers-on-section">
+        <div id="left-containers-on-section" class="left-containers-on-section animate__animated animate__backInRight">
           <img src="./images/usta.png" id="img-on-left-containers" />
         </div>
       </div>
@@ -527,68 +511,55 @@
           </div>
         </div>
       </div>
-      <div id="abs-footer">
-        <div id="footer-main">
-          <div id="flex-containers-footer">
-            <div id="course-container">
-              <h1 class="h1-class-footer">Курсы</h1>
-              <p class="text-class-footer">Веб программирование</p>
-              <p class="text-class-footer">Интернет маркетинг</p>
-              <p class="text-class-footer">Дизайн</p>
-              <p class="text-class-footer">Phyton</p>
-              <p class="text-class-footer">Разработка игр</p>
-              <p class="text-class-footer">Scratch</p>
-              <p class="text-class-footer">Blender</p>
-              <p class="text-class-footer">Ms Office</p>
-              <p class="text-class-footer">Онлайн курсы</p>
-            </div>
-            <div id="info-container">
-              <h1 class="h1-class-footer">О центре CoddyCamp</h1>
-              <p class="text-class-footer">Бесплатный открытый урок</p>
-              <p class="text-class-footer">Коворкинг</p>
-              <p class="text-class-footer">Все бонусы</p>
-              <p class="text-class-footer">Контакты</p>
-              <p class="text-class-footer">Трудоустройство 2.0</p>
-              <p class="text-class-footer">Для работодателей</p>
-            </div>
-            <div id="support-container">
-              <h1 class="h1-class-footer">Поддержка</h1>
-              <p class="text-class-footer">Написать менеджеру</p>
-              <p class="text-class-footer">Записаться в коворкинг</p>
-              <p class="text-class-footer">Заявка на консультацию</p>
-              <p class="text-class-footer">Инструкция Zoom</p>
-              <p class="text-class-footer">Жалобы и пожелания</p>
-            </div>
-            <div id="address-container">
-              <h1 class="h1-class-footer">Наш адрес:</h1>
-              <p class="text-class-footer">
-                г.Ташкент,Яккасарайский район,проспект<br />
-                Саломатина
-              </p>
-              <a class="href-class-footer" href="tel"
-                ><img src="./phone-call.png" style="width: 25px" /> 90 111
-                1866</a
-              >
-            </div>
-          </div>
-          <div id="footer-end-flex">
-            <div>
-              <h3 id="text-endfooter">© CoddyCamp</h3>
-            </div>
-            <div>
-              <a href="" class="decoration">
-                <img class="footer-images" src="./instagram.png" />
-              </a>
-              <a href="" class="decoration">
-                <img class="footer-images" src="./telegram (1).png" />
-              </a>
-              <a href="" class="decoration">
-                <img class="footer-images" src="./youtube.png" />
-              </a>
+      <footer>
+        <div id="abs-footer">
+            <div id="footer-main">
+              <div id="flex-containers-footer">
+                <div id="course-container " class="course-container ">
+                  <h1 class="h1-class-footer">Ilogibor.uz</h1>
+                </div>
+                <div id="info-container">
+                  <p class="text-class-footer">FAQ</p>
+                  <p class="text-class-footer">Как работает сайт</p>
+                  <p class="text-class-footer">Сколько стоят услуги мастеров</p>
+                  <p class="text-class-footer">Карта сайта</p>
+                </div>
+                <div id="support-container">
+                  <p class="text-class-footer">Каталог специалистов</p>
+                  <p class="text-class-footer">Написать нам</p>
+                  <p class="text-class-footer">Правила и условия</p>
+                  <p class="text-class-footer">Статьи в Блоге</p>
+                </div>
+                <div id="address-container">
+                  <h1 class="h1-class-footer">Мы в соцсетях:</h1>
+                 <div class="adres-program">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-telegram"></i>
+                 </div>
+                  <a class="href-class-footer" href="tel"
+                    ><img src="./phone-call.png" style="width: 25px" /> 90 1111866</a>
+                </div>
+              </div>
+              <div id="footer-end-flex" class="footer-end-flex">  
+                <div>
+                  <h3 id="text-endfooter">© Ilogibor.uz</h3>
+                </div>
+                <div class="decoration-container">
+                  <a href="#" class="decoration">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                  <a href="#" class="decoration">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#" class="decoration">
+                      <i class="fa-solid fa-phone-volume"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+    </footer>
     </div>
   </body>
   <script
