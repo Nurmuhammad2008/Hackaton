@@ -36,7 +36,19 @@
             <i class="fa-solid fa-location-arrow logo-nav" ></i>
           </div>
           <div id="right-container" class="right-container">
-            <button id="registr-btn" class="registr-btn animate__animated ">Войти</button>
+            \<div class="pop_up" id="pop_up">
+              <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                  <p>Войти</p>
+                  <form action="masters.html">
+                    <input type="text" required placeholder="Email или номер телефона">
+                    <input type="text" required placeholder="Пароль">
+                    <button>Войти</button>
+                  </form>
+                  <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                </div>
+              </div>
+            </div>
             <button id="btn-rate" class="btn-rate animate__animated ">Оставить отзыв</button>
             <i class="fa-solid fa-phone-volume phone-btn animate__animated animate__shakeX" id="phone-btn"></i>
           </div>
@@ -567,4 +579,5 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"
   ></script>
+  <script src="./index.js"></script>
 </html>
