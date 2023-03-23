@@ -122,7 +122,7 @@ body {
   padding: 0 0 0 10px;
 }
 
-/* .registr-btn {
+.registr-btn {
   position: absolute;
   top: 8px;
   right: 470px;
@@ -225,7 +225,7 @@ a {
   right: 15px;
   font-size: 21px;
   cursor: pointer;
-} */
+}
 
 .btn-rate {
   position: relative;
