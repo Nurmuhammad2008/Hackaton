@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="style/prices.css">
     <link rel="icon" href="images/logo_icon.jpg">
+    <link rel="stylesheet" href="style/job.css">
 
   </head>
   <body>
@@ -35,18 +36,51 @@
       </nav>
     </header>
     <!-- section -->
-    <section>
+    <aside>
         <div class="container block_services">
-            <div class="services d-flex justify-content-around">
+     
+    <button class="icon-bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars "></i></button>
+   <div class="services">
                 <a href="job.html">
-                    <div class="type_services">
+                    <div class="type_services " style="border-bottom: 2px solid rgb(222, 223, 224); ">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </div>
+                </a>
+
+                <a href="masters.html">
+                    <div class="type_services" style="border-bottom: 2px solid rgb(222, 223, 224);">
+                        <i class="fa-solid fa-user">
+                           
+                        </i>
+                    </div>
+                </a>
+                <a href="prices.html">
+                    <div class="type_services" style="border-bottom: 2px solid rgb(222, 223, 224);">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="type_services ">
+                        <i class="fa-regular fa-comments"></i>
+                    </div>
+                </a>
+            </div>
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Servi</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+        <div class="services">
+                <a href="job.html">
+                    <div class="type_services d-flex">
                         <i class="fa-solid fa-file-lines"></i>
                         <p>Заявка</p>
                     </div>
                 </a>
 
                 <a href="masters.html">
-                    <div class="type_services">
+                    <div class="type_services d-flex">
                         <i class="fa-solid fa-user">
                             <div id="random_number">
                                 
@@ -56,21 +90,23 @@
                     </div>
                 </a>
                 <a href="prices.html">
-                    <div class="type_services">
+                    <div class="type_services d-flex">
                         <i class="fa-solid fa-coins"></i>
                         <p>Цены</p>
                     </div>
                 </a>
                 <a href="#">
-                    <div class="type_services">
+                    <div class="type_services d-flex">
                         <i class="fa-regular fa-comments"></i>
                         <p>JivoChat</p>
                     </div>
                 </a>
-            </div>
+            </div> 
+  </div>
+</div>
         </div>
-        <hr style="height: 3px; color: gray; margin: 0;">
-    </section>
+    </aside>
+
           <!-- categores dropdown -->
           <div class="container container__plus">
 

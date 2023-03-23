@@ -213,14 +213,8 @@
   .services a:nth-child(3) i {
   color: #00ab2d;
   }
-  
-  .services a:nth-child(3) {
-      border-bottom: 3px solid #00ab2d;
-  }
-  
-  .type_services {
-      width: 200px;
-  }
+ 
+
   
   
   
@@ -234,7 +228,11 @@
       max-width: 786px;
       padding: 0;
   }
+
   
+  .container__plus {
+    padding-top: 100px;
+  }
   
   .block_services {
       padding-top: 20px;
