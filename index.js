@@ -10,7 +10,18 @@ closePopUp.addEventListener("click", () => {
   popUp.classList.remove("active");
 });
 
-document.getElementById("check").onclick = function () {
-  let login = document.getElementById("login");
-  let password = document.getElementById("login");
-};
+// document.getElementById("check").onclick = function () {
+//   let login = document.getElementById("login");
+//   let password = document.getElementById("login");
+// };
+
+
+
+const typed = new Typed(".multiple-text" , {
+  strings: ["Узбекистан !"],
+  typeSpeed: 100,
+  backSpeed:100,
+  backDelay:100,
+  loop:true 
+
+})

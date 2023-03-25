@@ -34,7 +34,7 @@
   #logo-nav {
     width: 49px;
     height: 40px;
-    color: #00ab2d;
+    color: blue;
   }
   #nav-container {
     display: flex;
@@ -76,7 +76,7 @@
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-size: 15px;
-    background-color: #00ab2d;
+    background: linear-gradient(to left, #d3deff, #2948ff);
     color: #fff;
   }
   
@@ -90,7 +90,7 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #00ab2d;
+    background-color: #2948ff;
     color: white;
     width: 40px;
     height: 40px;
@@ -207,7 +207,7 @@
   }
   
   .services a:nth-child(2) i {
-  color: #00ab2d;
+  color: #2948ff;
   }
   
 
@@ -279,7 +279,7 @@
 
 .btn-phone_card  i  {
    color: white;
-   background-color: #00ab2d;
+   background-color: #8497df;
    padding: 15px;
    border-radius: 50%;
 }
