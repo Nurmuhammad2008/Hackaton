@@ -468,7 +468,8 @@ a {
   transition: 0.3s;
 }
 #abs-answers {
-  width: 100%;
+  width: 900px;
+  margin: 0 auto;
 }
 #text-answer {
   margin-bottom: 50px;
