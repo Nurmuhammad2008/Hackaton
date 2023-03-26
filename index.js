@@ -25,3 +25,11 @@ const typed = new Typed(".multiple-text" , {
   loop:true 
 
 })
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}

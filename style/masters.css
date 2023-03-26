@@ -62,7 +62,8 @@
     font-weight: 700;
     font-size: 15px;
     background: #fff;
-    box-shadow: 8px 5px 13px silver;  }
+    box-shadow: 8px 5px 13px silver;  
+  }
   #flex-center {
     margin-top: 20px;
   }
@@ -76,7 +77,7 @@
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-size: 15px;
-    background: linear-gradient(to left, #d3deff, #2948ff);
+    background: linear-gradient(to left, #3d4d7cfb, #2949ffe8);
     color: #fff;
   }
   
@@ -90,7 +91,7 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #2948ff;
+    background: linear-gradient(to left, #3d4d7cfb, #2949ffe8);
     color: white;
     width: 40px;
     height: 40px;
@@ -279,7 +280,7 @@
 
 .btn-phone_card  i  {
    color: white;
-   background-color: #8497df;
+   background: linear-gradient(to left, #3d4d7cfb, #2949ffe8);
    padding: 15px;
    border-radius: 50%;
 }
@@ -360,7 +361,7 @@
 .btn-footer a button {
 
     padding: 10px 50px;
-    background-color: #00ab2d;
+    background: linear-gradient(to left, #3d4d7cfb, #2949ffe8);
     color: white;
     border:  none;
     border-radius: 50px;

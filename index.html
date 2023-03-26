@@ -36,10 +36,25 @@
             <i class="fa-solid fa-location-arrow logo-nav" ></i>
           </div>
           <div id="right-container" class="right-container">
-            <a href="#" class="btn-enter"><button>Войти</button></a>
-            <button id="btn-rate" class="btn-rate animate__animated ">Оставить отзыв</button>
+            <button class="btn-enter"  >Войти</button>
+           <a href="#"><button id="btn-rate" onclick="openForm()" class="btn-rate animate__animated ">Оставить отзыв</button></a> 
             <i class="fa-solid fa-phone-volume phone-btn animate__animated animate__shakeX" id="phone-btn"></i>
           </div>
+        </div>
+        <div class="form-popup" id="myForm">
+          <form action="../action_page.php" class="form-container">
+            <div id="left-containers " class="d-flex justify-content-center" style="padding-bottom: 20px;">
+              <h1 id="text-logo" class="margin-on-nav">ilojibor.uz</h1>
+              <i class="fa-solid fa-location-arrow logo-nav" ></i>
+            </div>        
+            <label for="email"><b>Почта</b></label>
+            <input type="text" placeholder="Ваша почта" name="email" required>
+            <label for="password">Пароль</label>
+            <input type="password" placeholder="Пароль" required>
+        
+            <button type="submit" class="btn" style="  background: linear-gradient(to left, #d3deff, #2948ff)">Вход</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+          </form>
         </div>
       </div>
     </nav>
@@ -61,7 +76,7 @@
           </div>
         </div>
         <div id="left-containers-on-section" class="left-containers-on-section animate__animated animate__backInRight">
-          <img src="https://st2.depositphotos.com/1001335/10179/i/600/depositphotos_101790110-stock-photo-set-of-autoparts-3d-render.jpg" id="img-on-left-containers" class="headerImg(1)"/> 
+          <img src="images/depositphotos_102665706-stock-photo-auto-parts-in-the-cardboard.jpg" id="img-on-left-containers" class="headerImg(1)"/> 
           <img src="https://www.ustabor.uz/images/main/masters/auto.webp" alt="" style="height: 500px; display: none; border-radius: 50%;" class="classImg(2)">
         </div>
       </div>
@@ -190,7 +205,7 @@
         </div>
       </div>
       <div class="main_program container">
-        <img src="images/prog.png" alt="" />
+        <img src="https://master-lux.md/images/expertauto/osobennosti-remonta-khodovoy-chasti-avtomobilya-1.jpg" alt="">
       </div>
     </main>
 
@@ -202,7 +217,7 @@
             <h1 id="text-answers">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h1>
           </div>
         </div>
-        <div id="flex-answers-main">
+        <div id="flex-answers-main " style="margin: 0 auto;">
           <div class="button-w">
             <button
               class="button-info"
@@ -565,5 +580,4 @@
     crossorigin="anonymous"
   ></script>
   <script src="./index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </html>
